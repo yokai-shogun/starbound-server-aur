@@ -1,0 +1,20 @@
+pkgbase = starbound-server
+	pkgdesc = Official dedicated server for Starbound
+	pkgver = 1.4.4
+	pkgrel = 1
+	url = https://terraria.org/
+	arch = x86_64
+	arch = x86
+	license = unknown
+	makedepends = unzip
+	depends = screen
+	source = starbound-server-144.zip
+	source = starbound-server
+	source = starbound_server.config
+	source = starbound-server.service
+	sha256sums = 1ef0e24190f99eafd774456e96ab73cd8bb7ad438c5c9267d88d48dd2a1a0044
+	sha256sums = d1dd215acbd04be64120225ef905af460be157340a07c589e5293939023ababa
+	sha256sums = 7bf0d6cf43467e3b7dcac24679d7a6c61d12de20c00342cf1d16caefe12655a5
+	sha256sums = 0baf62d83d69809c1fed447db85c6b3e6d7ebb0d651cec46e7e87ecb211c4c4d
+
+pkgname = starbound-server

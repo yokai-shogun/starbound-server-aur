@@ -1,0 +1,13 @@
+[Unit]
+Description=Starbound Server
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/starbound-server
+RestartSec=15
+Restart=always
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target
